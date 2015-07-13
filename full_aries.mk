@@ -22,12 +22,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Common Sony Resources
 $(call inherit-product, device/sony/common/resources.mk)
 
-# Inherit from z3c device
-$(call inherit-product, device/sony/z3c/z3c.mk)
+# Inherit from aries device
+$(call inherit-product, device/sony/aries/aries.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_z3c
-PRODUCT_DEVICE := z3c
+PRODUCT_NAME := full_aries
+PRODUCT_DEVICE := aries
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_MODEL := Xperia Z3C
+PRODUCT_MODEL := aries

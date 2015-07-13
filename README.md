@@ -1,2 +1,2 @@
-android_device_sony_z3c
+android_device_sony_aries
 ==========================

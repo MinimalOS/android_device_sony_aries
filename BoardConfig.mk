@@ -16,14 +16,14 @@
 include device/sony/shinano-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
-#-include vendor/sony/z3c/BoardConfigVendor.mk
+#-include vendor/sony/aries/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := D5803,D5833,z3c
+TARGET_OTA_ASSERT_DEVICE := D5803,D5833,aries
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/z3c/include
+TARGET_SPECIFIC_HEADER_PATH += device/sony/aries/include
 
-BOARD_HARDWARE_CLASS += device/sony/z3c/cmhw
+BOARD_HARDWARE_CLASS += device/sony/aries/cmhw
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := cm_shinano_aries_defconfig
@@ -34,4 +34,4 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 12656242688 # 12656259072 - 16384
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-    device/sony/z3c/sepolicy
+    device/sony/aries/sepolicy
