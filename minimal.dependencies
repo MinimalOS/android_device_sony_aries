@@ -1,0 +1,38 @@
+[
+    {
+        "remote":       "gh",
+        "repository":   "XperiaZ3Compact/kernel_sony_msm8974",
+        "target_path":  "kernel/sony/msm8974",
+        "revision":     "lp5.1"
+    },
+    {
+        "remote":       "gh",
+        "repository":   "XperiaZ3Compact/device_sony_msm8974-common",
+        "target_path":  "device/sony/msm8974-common",
+        "revision":     "lp5.1"
+    },
+    {
+        "remote":       "gh",
+        "repository":   "XperiaZ3Compact/device_sony_shinano-common",
+        "target_path":  "device/sony/shinano-common",
+        "revision":     "lp5.1"
+    },
+    {
+        "remote":       "gh",
+        "repository":   "XperiaZ3Compact/device_sony_common",
+        "target_path":  "device/sony/common",
+        "revision":     "lp5.1"
+    },
+    {
+        "remote":       "gh",
+        "repository":   "XperiaZ3Compact/hardware_sony_thermanager",
+        "target_path":  "hardware/sony/thermanager",
+        "revision":     "lp5.1"
+    },
+    {
+        "remote":       "gh",
+        "repository":   "XperiaZ3Compact/vendor_sony",
+        "target_path":  "vendor/sony",
+        "revision":     "lp5.1"
+    }
+]
